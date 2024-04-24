@@ -319,7 +319,7 @@ the [vmagent page](./resources/vmagent.md).
 Now we have the timeseries database (vmcluster) and the tool to collect metrics (vmagent) and send it to the database.
 
 But we need to tell vmagent what metrics to collect. For this we will use [`vmservicescrape`](./resources/vmservicescrape.md) resource
-or [other `*scrape` resources](./resources/README.md).
+or [other `*scrape` resources](./resources/vmcustomresources.md).
 
 By default, operator creates `vmservicescrape` resource for each component that it manages. More details about this you can find on
 the [monitoring page](./configuration.md#monitoring-of-cluster-components).
